@@ -1,0 +1,130 @@
+/*styling.css*/
+body {
+    background: url("img/time.jpg");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+    padding-top: 40px;
+}
+
+h1 {
+    font-size: 5vw;
+    font-weight: bold;
+    color: #000000bf;
+    max-width: 500px;
+    margin: 20px auto 40px; 
+}
+
+.btn {
+    width: 7.5vw;
+    height: 7.5vw; 
+    border-radius: 100%;
+    margin: 10px 0px;
+    font-size: 2vw;
+    padding: 20% 0;
+    color: white;
+    background-color: #000000bf;
+    border: none;
+}
+
+.btn:hover, .btn.focus, .btn:focus, .btn:active {
+    color: rgb(5, 5, 5);
+    background-color: #ffffffbf;
+    border: none;
+}
+
+#time {
+    font-size: 10vw;
+    color: white;
+    margin-top: 70px;
+}
+
+#lap {
+    position: absolute;
+    right: 80px;
+    color: #000000bf;
+    font-size: 2.5vw;
+    margin: 0;
+    padding: 0 15px;
+}
+
+#laps{
+    max-height: 220px;
+    overflow-y: scroll;
+    color: white;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+td {
+    padding: 5px;
+    margin: 10px;
+}
+
+#controls {
+    margin-bottom: 80px;
+}
+
+
+@media (max-width:850px) {
+    #lap {
+        right: 20px;
+        font-size: 3vw;
+    }
+}
+
+@media (max-width:770px) {
+    h1 {
+        max-width: 350px;
+        font-size: 8vw;
+    }
+    #time {
+        font-size: 15vw;
+    }
+    #lap {
+        font-size: 4vw;
+    }
+    .btn {
+        width: 12vw;
+        height: 12vw;
+        padding: 30% 0;
+        font-size: 3vw;
+    }    
+}
+
+@media (max-width:520px) {
+    h1 {
+        max-width: 240px;
+        font-size: 9vw;
+    }
+    .btn {
+        width: 14vw;
+        height: 14vw;
+        padding: 50% 0;
+        font-size: 3vw;
+    }
+    #time {
+        font-size: 18vw;
+    }
+    #lap {
+        font-size: 5.5vw;
+    }
+} 
+@media (max-width:420px) {
+    .col-xs-offset-4 {
+        margin-left: 27%;
+    }
+    .col-xs-2 {
+        width: 19%;
+    }
+    .btn {
+        width: 16vw;
+        height: 16vw;
+        font-size: 4vw;
+    }
+}
