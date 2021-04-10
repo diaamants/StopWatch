@@ -6,8 +6,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>STOPWATCH</title>
-    <!-- Bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="styling.css" rel="stylesheet">
 
   </head>
@@ -21,13 +19,13 @@
             <div id="time"><span id="timeminute">00</span>:<span id="timesecond">00</span>:<span id="timecentisecond">00</span>
             </div>
     
-            <div id="controls" class="row">
-                <div class="col-xs-2 col-xs-offset-4">
+            <div id="controls" class="flex">
+                <div class="flex">
                     <div id="startButton" class="btn">Start</div>
                     <div id="stopButton" class="btn">Stop</div>
                     <div id="resumeButton" class="btn">Resume</div>
                 </div>
-                <div class="col-xs-2">
+                <div class="flex">
                     <div id="lapButton" class="btn">Lap</div>
                     <div id="resetButton" class="btn">Reset</div>
                 </div>
@@ -40,7 +38,6 @@
     <!-- jQuery  -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/bootstrap.min.js"></script>
     <script src="js/main.js"></script>
   </body>
 </html>
